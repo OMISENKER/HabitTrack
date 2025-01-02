@@ -1,10 +1,10 @@
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-gray-100">
-      <header className="w-full text-center py-4 bg-blue-600 text-white">
+    <div className="grid items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)] bg-gray-100">
+      <header className="w-full text-center py-4 bg-blue-600 text-white absolute top-0">
         <h1 className="text-4xl font-bold">HabitTrack</h1>
       </header>
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start text-black absolute top-1/2 transform -translate-y-1/2">
         <h2 className="text-3xl font-semibold text-center sm:text-4xl">
           Build Good Habits, Break Bad Ones
         </h2>
@@ -17,7 +17,7 @@ export default function Home() {
           Get Started
         </button>
       </main>
-      <footer className="w-full text-center py-4 bg-gray-800 text-white">
+      <footer className="w-full text-center py-4 bg-gray-800 text-white absolute bottom-0">
         <p>&copy; 2025 HabitTrack. All rights reserved.</p>
       </footer>
     </div>
