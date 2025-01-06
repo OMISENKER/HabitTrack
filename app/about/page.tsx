@@ -1,6 +1,6 @@
 import React from "react";
 
-const AboutPage: React.FC = () => {
+export default function Page() {
   return (
     <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
       <h1>About this project</h1>
@@ -15,6 +15,4 @@ const AboutPage: React.FC = () => {
       </p>
     </div>
   );
-};
-
-export default AboutPage;
+}
